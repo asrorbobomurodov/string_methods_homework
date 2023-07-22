@@ -7,4 +7,6 @@ def main(s):
         bool: answer
     """
     
-    return
+    return s.islower()
+print(main("python is"))
+print(main("Python"))
